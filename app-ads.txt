@@ -1,0 +1,6 @@
+# app-ads.txt file for OM Pixels
+# Replace the entries below with your actual ad network details
+# Format: <ad network domain>, <publisher ID>, DIRECT/RESELLER, <certification authority ID>
+#
+# Example:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

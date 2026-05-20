@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OM Pixels</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #0a0a0a;
+            color: #f0f0f0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .logo span {
+            color: #7c5cfc;
+        }
+
+        .tagline {
+            color: #888;
+            font-size: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .apps {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+
+        .app-card {
+            background: #151515;
+            border: 1px solid #252525;
+            border-radius: 16px;
+            padding: 2rem;
+            width: 260px;
+            text-align: center;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+
+        .app-card:hover {
+            border-color: #7c5cfc;
+            transform: translateY(-4px);
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            margin: 0 auto 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        .app-icon.deeni {
+            background: linear-gradient(135deg, #2d9b6e, #1a6b4a);
+        }
+
+        .app-icon.puzzle-pets {
+            background: linear-gradient(135deg, #e8664a, #c94a30);
+        }
+
+        .app-name {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .app-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .app-links a {
+            color: #999;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .app-links a:hover {
+            color: #7c5cfc;
+        }
+
+        footer {
+            margin-top: auto;
+            padding-top: 2rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: #7c5cfc;
+        }
+
+        .copyright {
+            color: #333;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo"><span>OM</span> Pixels</div>
+    <p class="tagline">Crafting delightful mobile experiences</p>
+
+    <div class="apps">
+        <div class="app-card">
+            <div class="app-icon deeni">D</div>
+            <div class="app-name">Deeni</div>
+            <div class="app-links">
+                <a href="deeni/privacy.html">Privacy Policy</a>
+                <a href="deeni/terms.html">Terms of Service</a>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-icon puzzle-pets">P</div>
+            <div class="app-name">Puzzle Pets</div>
+            <div class="app-links">
+                <a href="puzzle-pets/privacy.html">Privacy Policy</a>
+                <a href="puzzle-pets/terms.html">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="app-ads.txt">app-ads.txt</a>
+        <p class="copyright">&copy; 2025 OM Pixels. All rights reserved.</p>
+    </footer>
+</body>
+</html>
